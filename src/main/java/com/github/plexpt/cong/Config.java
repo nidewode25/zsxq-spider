@@ -3,12 +3,12 @@ package com.github.plexpt.cong;
 public interface Config {
 
     //    private static String cookie = "zsxq_access_token=676F065A-F27E-5CD6-EF78-C65F75545723_742DE3448AC78AE0";
-    String COOKIE = "sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22173a39bbb6c115-052507c1cc3f1e-4353760-1327104-173a39bbb6e796%22%2C%22%24device_id%22%3A%22173a39bbb6c115-052507c1cc3f1e-4353760-1327104-173a39bbb6e796%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E5%BC%95%E8%8D%90%E6%B5%81%E9%87%8F%22%2C%22%24latest_referrer%22%3A%22http%3A%2F%2Fwww.54tianzhisheng.cn%2F2018%2F10%2F13%2Fflink-introduction%2F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%7D%7D; UM_distinctid=175bff53d9f764-09c5610faff271-303464-1fa400-175bff53da05e5; zsxq_access_token=4454D058-E1CE-0924-C2E4-E05A8BFA6F5F_742DE3448AC78AE0; abtest_env=product";
+    String COOKIE = "sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22173a39bbb6c115-052507c1cc3f1e-4353760-1327104-173a39bbb6e796%22%2C%22%24device_id%22%3A%22173a39bbb6c115-052507c1cc3f1e-4353760-1327104-173a39bbb6e796%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E5%BC%95%E8%8D%90%E6%B5%81%E9%87%8F%22%2C%22%24latest_referrer%22%3A%22http%3A%2F%2Fwww.54tianzhisheng.cn%2F2018%2F10%2F13%2Fflink-introduction%2F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%7D%7D; UM_distinctid=175bff53d9f764-09c5610faff271-303464-1fa400-175bff53da05e5; zsxq_access_token=761F2F18-185E-500B-5681-F92659728453_0CF07DE4E1AA0EFD; abtest_env=product";
 
     /**
      * 群组
      */
-    String GROUP_ID = "1824528822";
+    String GROUP_ID = "35474570";
     /**
      * 登录时使用的User-Agent（必须修改）
      */
@@ -17,11 +17,11 @@ public interface Config {
     /**
      * 下载文件保存地址
      */
-    String File_Path = "d:/zsxq-file/";
+    String File_Path = "c:/zsxq-file/";
     /**
      * 文章保存地址
      */
-    String Save_Path = "d:/zsxq/";
+    String Save_Path = "c:/zsxq/";
     /**
      * 每次请求加载几个主题 最大可设置为30
      */
